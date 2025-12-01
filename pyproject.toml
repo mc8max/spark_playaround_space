@@ -1,0 +1,21 @@
+[project]
+name = "tutorial_spark_issue_partition"
+version = "0.1.0"
+requires-python = ">=3.10,<3.12"
+
+dependencies = [
+  "pyspark==4.0.1",
+  "delta-spark==4.0.0",
+  "pyarrow==14.0.2",
+  "pandas==2.2.2",
+  "numpy==1.26.4",
+  "python-dotenv==1.0.1",
+  "structlog==24.1.0"
+]
+
+[tool.uv]
+dev-dependencies = [
+  "pytest",
+  "ruff",
+  "black"
+]

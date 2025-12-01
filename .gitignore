@@ -1,0 +1,11 @@
+# Local files
+uv.lock
+local*.sh
+*.log
+
+# Spark Generated Files
+spark-events/
+spark-warehouse/
+metastore_db/
+.ipynb_checkpoints/
+
